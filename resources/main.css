@@ -1,0 +1,131 @@
+html,body {
+    height: 100%;
+    padding:0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #afafaf;
+}
+
+.container{
+    position: relative;
+    width: 45%;
+    height: 50%;
+    margin-left: 37%;
+    margin-right: 40%;
+    margin-top:10%
+}
+
+img {
+    position: absolute;
+    object-fit: fill;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+.text-wrapp{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    background-color: #afafaf;
+    width: 52%;
+    font-size: 12px;
+}
+.text-wrapp h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 300;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.second-container {
+    position:relative;
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.second-container section{
+    margin-left: 25px;
+    padding: 5px;
+    margin-bottom: 35px;
+}
+
+.form-wrapper {
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.emailinput{
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.emailinput input {
+    width: 350px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.radiotext {
+    margin-bottom: 15px;
+}
+
+.admin-wrapper {
+    margin-bottom: 10px;
+}
+
+.member-wrapper{
+    margin-bottom: 15px;
+}
+
+.checkboxtext {
+    margin-bottom: 15px;
+}
+
+.firstchoice {
+    margin-bottom: 5px;
+}
+
+.secondchoice {
+    margin-bottom: 5px;
+}
+
+.thirdchoice {
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    width:50%;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px;
+}
+
+.button-wrapp {
+    width: 100px;
+    background-color:#38daa1;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 17px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;   
+}
+
+.button-wrapp a {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: lighter;
+    vertical-align: -webkit-baseline-middle;
+}
