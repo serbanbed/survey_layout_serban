@@ -9,16 +9,88 @@
         <title>Survey Layout</title>
     
     
-        <link rel="stylesheet" type="text/css" href="resources/main.css">
+        <link rel="stylesheet" type="text/css" href="resources/second.css">
     
        </head> 
-       
 
+       <body>
+        <div class="container">
+            <img src="/assets/step-2.png" alt="02" width="300px" height="200px" > 
+            <div class="text-wrapp">
+             <h1>Notifications Survey</h1>
+          </div>
+        </div>
 
+         <div class="form-wrapp">
+             <form>
+                <label>Would you recommend our Board to other users?</label>
+                <div class="rating-box">
+                    
+                    <input type="radio" name="rating" value="1"><span>1</span>
+                    <input type="radio" name="rating" value="2"><span>2</span>
+                    <input type="radio" name="rating" value="3"><span>3</span>
+                    <input type="radio" name="rating" value="4"><span>4</span>
+                    <input type="radio" name="rating" value="5"><span>5</span>
+                </div>
+                 <div class="rating-text"> Not at all likely</div>
+                 <div class="rating-wrapp"> Extremely likely</div>
+                
+                <div class="checkbox">
+                    <label>Pick the 3 things you find most important with the integration documentation:</label>
 
+                    <div class="first-row">
+                        <input type="checkbox" id="first" name="tutorials" >
+                        <label for="first"> Tutorials</label>
+                        <input type="checkbox" id="second" name="api">
+                        <label for="second"> API Reference</label>
+                        <input type="checkbox" id="third" name="inline">
+                        <label for="third"> Inline code examples</label>
 
+                    </div>
 
+                    <div class="second-row">
 
+                        <input type="checkbox" id="4" name="clear" >
+                        <label for="4"> Clear consistent content</label>
+                        <input type="checkbox" id="5" name="repos" >
+                        <label for="5"> Runnable example repos</label>
+                        
+                    </div>
 
+                    <div class="third-row">
 
+                        <input type="checkbox" id="6" name="tutorials" >
+                        <label for="6"> Support</label>
+                        <input type="checkbox" id="7" name="api" >
+                        <label for="7"> Navigation & search</label>
+                        <input type="checkbox" id="8" name="inline" >
+                        <label for="8"> Design & usability</label>
+
+                    </div>
+
+                </div>
+
+                <label>How would you score your navigation experience so far?</label>
+                <div class="image-box">
+                    <input checked type="radio" name="ratings" value="6">
+                    <input type="radio" name="ratings" value="7" >
+                    <input type="radio" name="ratings" value="8" >
+                    <input type="radio" name="ratings" value="9" >
+                    <input type="radio" name="ratings" value="10" >
+                </div>
+                 <div class="image-text"> Didn't meet expectations</div>
+                 <div class="image-wrapp"> Exceeded expectations</div>
+                
+                 <div class="button-back">
+                    <a target="_blank" href="survey.html">BACK</a>
+                   </div>
+                   <div class="button-send">
+                    <a target="_blank" href="backend.html">SEND</a>
+                   </div>
+
+             </form>
+            </div>
+
+               
+       </body>
 </html>

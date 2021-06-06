@@ -1,0 +1,230 @@
+html,body {
+    height: 100%;
+    padding:0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #afafaf;
+}
+
+.container{
+    position: relative;
+    width: 45%;
+    height: 50%;
+    margin-left: 37%;
+    margin-right: 40%;
+    margin-top:10%
+}
+img {
+    position: absolute;
+    object-fit: fill;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+}
+
+.text-wrapp{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    background-color: #afafaf;
+    width: 52%;
+    font-size: 12px;
+}
+
+.text-wrapp h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: 300;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding-left: 7px;
+}
+
+.form-wrapp {
+    position:relative;
+    background-color: white;
+    width: 750px;
+    height: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    position: relative;
+    padding: 30px;
+}
+
+
+.rating-box {
+    margin-top: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 66%;
+    margin-left: -38px;
+}
+
+
+.rating-box input{
+    width: 60px;
+    height: 60px;
+    border: solid 1px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color:#afafaf ;
+}
+
+.rating-box span{
+    margin-left: -71px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.rating-box input[value="5"] {
+    background-color: #38daa1;
+}
+
+.rating-text{
+    float: left;
+    margin-top: -70px;
+    margin-left: 4px;
+}
+
+.rating-wrapp{
+    float: right;
+    margin-top: -70px;
+    margin-right: 42%;
+}
+
+.checkbox {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.first-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 73%;
+    margin-left: -21px;
+}
+
+.second-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: -6px;
+}
+
+.third-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 73%;
+    margin-left: -18px;
+    margin-bottom: 30px;
+}
+
+.image-box {
+    margin-top: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 86%;
+    margin-left: -38px;
+}
+
+.image-box input{
+    width: 60px;
+    height: 60px;
+    border: solid 1px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 15px;
+    margin-left: 25px;
+    background-color:#afafaf;
+}
+
+.image-box input[value="6"]{
+
+    background-image: url(/assets/expectations-level-1.png);
+    background-size: auto 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-box input[value="7"]{
+
+    background-image: url(/assets/expectations-level-2.png);
+    background-size: auto 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-box input[value="8"]{
+
+    background-image: url(/assets/expectations-level-3.png);
+    background-size: auto 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-box input[value="9"]{
+
+    background-image: url(/assets/expectations-level-4.png);
+    background-size: auto 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #38daa1;
+}
+
+.image-box input[value="10"]{
+
+    background-image: url(/assets/expectations-level-5.png);
+    background-size: auto 50px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-text{
+    float: left;
+    margin-top: -70px;
+    margin-left: 4px;
+    width: 100px;
+}
+
+.image-wrapp {
+    float: right;
+    margin-top: -70px;
+    margin-right: 26%;
+    width: 50px;
+}
+
+.button-back {
+    width: 100px;
+    background-color:#504f4f;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 17px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    float: left;   
+}
+
+.button-back a {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: lighter;
+    vertical-align: -webkit-baseline-middle;
+}
