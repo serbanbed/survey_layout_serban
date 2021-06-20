@@ -14,7 +14,9 @@
        </head> 
        <body>
            <div class="container">
-                  <img src="/assets/step-1.png" alt="01" width="300px" height="200px" > 
+               <!-- avem o problema de navigare aici, dupa cum poti sa vezi si in recording, nu ai nevoie de "/" pe care il ai inainte de assets. il corectez aici, te rog sa le verifici tu pe restul -->
+               <!-- <img src="/assets/step-1.png" alt="01" width="300px" height="200px" >  -->
+               <img src="assets/step-1.png" alt="01" width="300px" height="200px" > 
                   <div class="text-wrapp">
                    <h1>Notifications Survey</h1>
                 </div>
@@ -26,7 +28,9 @@
                    <p>The survey consists in several questions and usually takes 5-7 minutes to complete.</p>
                </section>
                <div class="form-wrapper">
+                   <!-- atentie la identatie, este foarte greu de citit codul asa -->
                    <form>
+                       <!-- la denumirea claselor, cateodata folosesti "-" ca si separator, cateodata nu, recomand consistenta -->
                     <div class="emailinput">
                         <label for="emailinput">Enter your email:</label>
                         <input class="email-input" type="email" id="emailinput" placeholder="Your answer" />
@@ -46,7 +50,7 @@
                     </div>
 
                     <div class="checkboxtext"> How do you collaborate in our Board?</div>
-
+                    <!-- radio buttons sunt elemente grupate prin acelasi name,,cum ai folosit tu nu se mai comporta ca sir adio button: selectia unuia ar trebui sa le deselecteze pe celelalte, iar la tine nu se intampla asta -->
                     <div class="firstchoice">
                     <input type="radio" id="create" name="firstchoice" value="content">
                     <label for="create">Create and edit content</label> 
@@ -67,6 +71,7 @@
                     </div>
 
                     <div class="button-wrapp">
+                        <!-- nu vrem ca un al 2 lea pas pe un survey sa deschida o noua pagina, de obicei sunt conectate intre ele, bad UX -->
                         <a target="_blank" href="nextpage.html">NEXT</a>
                        </div>
             
@@ -76,7 +81,7 @@
 
            
         </body>
-        
+        <!-- de ce ai nevoie de un footer gol aici? si atentie este in afara body-ului, tot continutul din pagina ar trebui sa fie child content pe body -->
         <footer>
 
         </footer>

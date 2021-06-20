@@ -1,3 +1,4 @@
+/* nu ai nevoie de 2 fisiere css separate, ai mult cod repetitiv inutil, si este ok sa avem reguli css in acelasi fisier chiar daca se aplica pe o alta pagina */
 html,body {
     height: 100%;
     padding:0;
@@ -45,6 +46,7 @@ img {
     background-color: white;
     width: 750px;
     height: 600px;
+    /* foarte multa pozitionare manuala cu margin, nu recomand */
     margin-left: 25%;
     margin-right: 25%;
     font-family: Arial, Helvetica, sans-serif;
@@ -147,8 +149,9 @@ form {
     background-color:#afafaf;
 }
 
+/* foarte mult cod repetitiv: size, repeat, position puteai sa le pui pe o selectie de grup sau pe o clasa comuna */
 .image-box input[value="6"]{
-
+/* avem o problema de navigare si aici, te rog sa verifici */
     background-image: url(/assets/expectations-level-1.png);
     background-size: auto 50px;
     display: block;

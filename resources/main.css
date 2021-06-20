@@ -11,18 +11,21 @@ html,body {
     position: relative;
     width: 45%;
     height: 50%;
+    /* ai facut o centrare manuala aici, iar efectul este ceeea ce vezi in inregistrare, continutul este trimis in partea dreapta, margin-urile si width-ul are trebui sa iti ajunga la 100%, la tine e mult peste. recomand margin auto pentru centrare orizontala, cel putin in acest caz */
     margin-left: 37%;
     margin-right: 40%;
     margin-top:10%
 }
 
 img {
+    /* ai nevoie de pozitionare aici? este doar un element centrat orizontal */
     position: absolute;
     object-fit: fill;
     margin-top: 50px;
     margin-left: 50px;
     padding-bottom: 5px;
 }
+/* elementul nu este centrat si tu pozitionezi folosind margin ceea ce nu este cea mai buna optiune */
 .text-wrapp{
     position: absolute;
     margin-top: 20%;
